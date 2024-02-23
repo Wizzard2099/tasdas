@@ -5,4 +5,6 @@
   X-XSS-Protection: 1; mode=block
   Test: test
   Hello: test%0d%0a
-  
+  Content-Security-Policy: default-src 'self';
+
+  new: testx\u{0120}HTTP/1.1\u{010D}\u{010A}Host:{\u0120}127.0.0.1:8000\u{010D}\u{010A}\u{010D}\u{010A}GET\u{0120}/private
