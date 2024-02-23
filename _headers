@@ -3,3 +3,6 @@
   # headers for that path:
   X-Frame-Options: DENY
   X-XSS-Protection: 1; mode=block
+  Test: test
+  Hello: test%0d%0a
+  
